@@ -1,0 +1,23 @@
+#
+# visual module for vyper(in)staller
+# by BlackVyperStudios
+#
+source integration.vypermod
+# colorcodes
+ORANGE='\e[33m'
+BLUE='\e[94m'
+GREEN='\e[32m'
+RED='\e[31m'
+NC='\033[0m'
+
+
+welcome_message() {
+echo -e "${GREEN}  __${NC}"
+echo -e "${GREEN} {${NC}OO${GREEN}}${NC}"
+echo -e "${GREEN} \__/${NC}"
+echo -e "${GREEN}  |${RED}^${GREEN}|  ${ORANGE}vyperstaller - best archlinux install sulution${GREEN}  /\ ${NC}"
+echo -e "${GREEN}  | |_________________________________________________/ / ${NC}"
+echo -e "${GREEN}  \____________________________________________________/  ${NC}"
+}
+
+

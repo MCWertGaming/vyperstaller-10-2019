@@ -1,0 +1,7 @@
+#
+# integration module for vyper(in)staller
+# by BlackVyperStudios
+#
+
+source modules/formating.vypermod
+source modules/visual.vypermod
